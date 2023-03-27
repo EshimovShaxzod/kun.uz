@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+aside{
+    width: 100%;
+    height: 250px;
+}
+aside img{
+    width: 100%;
+    height: 100%;
+}
+section{
+    margin-bottom: 30px;
+}
+.row a{
+    text-decoration: none;
+}
+ .container{
+    width: 1500px;
+    margin: 0 auto;
+} 
+header{
+    margin-bottom: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.nav_list{
+    display: flex;
+    margin-right: 200px;
+}
+.nav_list li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nav_link:hover{
+    color: blue;
+    transition: .5s;
+}
+select{
+ padding: 10px 20px;
+ border-radius: 25px;
+ border: none;
+}
+.selected{
+   margin-left: 150px;
+}
+.bx-search{
+    margin-left: 5px;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(192, 187, 192);
+    padding: 0 20px;
+}
+/* .active{
+    background-color: rgb(70, 70, 128);
+} */
+.active .header_link{
+    color: white;
+}
+.header-list li{
+    list-style: none;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.header_link:hover{
+    color: #17206a; 
+    transition: 0.2s;
+}
+.header_link{
+    text-decoration: none;
+    color: rgb(102, 95, 102);
+}
+
+/* main qismi uchun */
+.migration_box{
+    display: flex;
+    margin-bottom: 30px; 
+}
+.migration_about{
+    background-color: rgba(183, 187, 187, 0.5);
+    padding: 20px; 
+    width: 100%;
+    height: 405px;
+}
+.data{
+    display: inline-block;
+    margin-bottom: 7px;
+    color: rgb(129, 134, 137);
+}
+.big_news-title{
+    margin-bottom: 15px;
+}
+.big_news-title a{
+    /* font-family: 'Nunito'; */
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.big_news-title a:hover{
+    color: blue;
+    transition: .2s;
+}
+.big_news-description a{
+    font-family: 'Nunito';
+    color: black;
+    line-height: 25px;
+}
+.big_news-description a:hover{
+    color: blue;
+    transition: .3s;
+}
+.clearfix{
+    clear: both;
+}
+.about_news{
+    width: 50%;
+    float: left;
+}
+.about_news img{
+    width: 280px;
+    height: 190px;
+}
+.about_news{
+    display: flex;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.hokim_pic img{
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+}
+.news{
+    padding: 20px;
+}
+.top_news{
+    width: 80%;
+}
+.small-news__title{
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+.small-news_title{
+    line-height: 25px;
+    margin-bottom: 77px;
+}
+.small-news__link{
+    font-family: 'Nunito';
+    color: black;
+}
+.small-news__link:hover{
+    color: blue;
+    transition: .3s;
+}
+.small_news-title a{
+    color: black;
+}
+.small_news-title:hover a{
+    color: blue;
+}
+.top_news-description{
+    display: flex;
+}
+.col-6 h3{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.news_time{
+    width: 100%;
+    height: 40px;
+    padding: 15px 15px;
+}
+.top_news-list{
+    padding: 0 20px;
+}
+.top_news-link{
+    color: black;
+}
+.top_news-item{
+    list-style: none;
+    margin-bottom: 65px;
+    line-height: 25px;
+}
+.top_news-item:hover .top_news-link{
+    color: blue;
+}
+/* editors_choice-box qismi uchun */ 
+.editors_choice-box:hover{
+ color: blue;
+ cursor: pointer;
+}
+.editors_choice-box h3{
+    margin-bottom: 15px;
+}
+.bx-circle{
+    color: black;
+}
+.editors_choice-box a{
+    color: black;
+}
+.editors_choice-box img{
+    width: 100%;
+    display: block;
+    height: 300px;
+    margin-bottom: 15px;
+}
+.choice_list{
+     display: flex; 
+     justify-content: space-between;   
+}
+/* .first_news{
+    height: 730px;
+} */
+.big_news-pic img{
+   width: 100%;
+   height: 430px;
+}
+.choice_list-item{
+    width: 410px;
+    height: 408px;
+    list-style: none;
+    padding: 5px;
+}
+.choice_list-item:hover a{
+    color: blue;
+    transition: .2s;
+    cursor: pointer;
+}
+.choice_list-link{
+    text-decoration: none;
+    color: black;
+}
+.big_title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.big_title a{
+    color: black;
+    margin-bottom: 20px;
+}
+.big_title:hover a{
+    color: blue;
+    transition: 1s;
+}
+.big_news{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+  .small_news{
+    margin-bottom: 25px;
+    height: 290px;
+}  
+.small_news img{
+    width: 361px;
+    height: 203px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* conversation-section qismi uchun */
+.world_news-section{
+   background-color: rgba(192, 187, 192, 0.6); 
+   height: 400px;
+}
+.conversation_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 8px;
+}
+.conversation_box i{
+    color: blue;
+}
+.conversation_box h3{
+   margin-left: 10px;
+   font-size: 24px;
+}
+.interwiew_box{
+    display: flex;
+    justify-content: space-around;
+}
+.interwiew_post{
+    width: 273px;
+    height: 310px;
+    position: relative;
+    background-color: white;
+}
+.interwiew_post:hover a{
+    color: blue;
+    transition: 0.2s;
+}
+.interwiew_pic{
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    width: 243px;
+    height: 155px;
+    box-shadow: 8px 8px blue;
+}
+.interwiew_post-title{
+    position: absolute;
+    bottom: 60px;
+    padding: 0 10px;
+}
+.interwiew_post-title a{
+    color: black;
+    line-height: 20px;
+}
+
+
+/* about_constitution-section qismi uchun */
+.about-constitution-box{
+    display: flex;
+}
+.constitution_promotion-box{
+    position: relative;
+    width: 75%;
+    height: 550px;
+    background-color: rgb(219, 226, 232);
+    margin-right: 40px;
+}
+.constitution_promotion-box img{
+    width: 90%;
+    height: 80%;
+    position: relative;
+    top: -24px;
+    box-shadow: 10px 10px white;
+}
+.promotion_title{
+    padding-left: 15px;
+}
+.promotion_title:hover a{
+    color: blue;
+}
+.promotion_title a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.constitution_promotion-list img{
+    margin-right: 20px;
+    width: 170px;
+    height: 110px;
+}
+.constitution_promotion-item{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.constitution_promotion-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.constitution_promotion-link:hover{
+    color: blue;
+    transition: .2s;
+}
+
+/* articles_section qismi uchun */
+.col-7{
+    float: left;
+    margin-right: 13px;
+    height: 475px;
+}
+.col-7 img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.col-7 h4 a{
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+  display: inline-block;
+  margin-bottom: 19px;
+  font-size: 19px;
+  padding-left: 5px;
+}
+.col-7 h4:hover a{
+    color: blue;
+    transition: .2s;
+}
+.col-7 p{
+    font-family: 'Nunito';
+    color: black;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.partner_link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.bx-chevron-right-circle{
+    font-size: 25px;
+}
+
+/* mixed_news-section qismi uchun */
+.mixed_news-section{
+    background-color: rgb(232, 235, 237);
+    height: 500px;
+}
+.mixed_news-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mixed_news-info{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    margin-top: 50px;
+}
+.mixed_news-info img{
+    width: 100%;
+    height: 180px;
+}
+.mixed_news-heading{
+    padding: 10px 15px;
+}
+.mixed_news-link{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.mixed_news-link:hover{
+    color: blue;
+    transition: .2s;
+}
+/* videonews_section qismi uchun */
+.world_news{
+    display: flex;
+}
+  .kazak_news {
+    width: 48%;
+    height: 400px;
+    margin-left: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}  
+.kazak_news:hover img{
+    transition: all 1s ease;
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.photo{
+    width: 100%;
+    height:100%;
+ }
+ .logo_play{
+    position: absolute;
+    top: 125px;
+    left: 290px;
+    font-size: 3px;
+ }
+ .logo_camera{
+    position: absolute;
+    top: 125px;
+    left: 290px;
+    font-size: 45px;
+}
+.kazak_news h2{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+}
+/* footer qismi uchun */
+footer{
+    background-color: #17206a;
+    height: 400px;
+}
+.footer_list{
+    display: flex;
+    padding: 25px 15px;
+}
+.footer_list-item{
+   list-style: none;
+   margin-right: 25px;
+   color: white;
+   font-size: 20px;
+   margin-right: 90px;
+}
+.footer_box{
+  width: 60%;
+  float: left;
+}
+.footer_box p{
+    line-height: 25px;
+    padding-right: 15px;
+    color: white;
+}
+.network_list{
+    display: flex;
+    width: 37%;
+    float: left;
+    padding-top: 25px;
+}
+.network_item{
+    margin-right: 50px;
+    list-style: none;
+    margin-left: 15px;
+}
+.network_item:hover{
+    transition: 1s;
+    transition-timing-function: ease;
+    transform: scale(1.1);
+}
